@@ -85,6 +85,8 @@
         // Read the segment link, and ignore line start with # && blank line
         while (1) {
             NSRange lfRange = [remainingSegments rangeOfString:@"\n"];
+            if (lfRange.length == 0)
+                break;
             NSString *line = [remainingSegments substringWithRange:NSMakeRange(0, lfRange.location)];
             line = [line stringByReplacingOccurrencesOfString:@" " withString:@""];
             
