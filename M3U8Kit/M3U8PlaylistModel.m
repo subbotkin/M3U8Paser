@@ -32,12 +32,12 @@
 
 - (id)initWithURL:(NSString *)URL error:(NSError **)error {
     
-    NSString *str = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:URL] encoding:NSUTF8StringEncoding error:error];
+    NSString *str = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:URL] encoding:NSUTF8StringEncoding error:&*error];
     if (*error) {
         return nil;
     }
     
-    return [self initWithString:str baseURL:URL error:error];
+    return [self initWithString:str baseURL:URL error:&*error];
 }
 
 - (id)initWithString:(NSString *)string baseURL:(NSString *)URL error:(NSError **)error {
