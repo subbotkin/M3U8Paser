@@ -103,15 +103,17 @@
             
             remainingSegments = [remainingSegments substringFromIndex:lfRange.location + 1];
             
-            if ([line characterAtIndex:0] != '#' && 0 != line.length) {
-                // remove the CR character '\r'
-                unichar lastChar = [line characterAtIndex:line.length - 1];
-                if (lastChar == '\r') {
-                    line = [line substringToIndex:line.length - 1];
+            if (0 != line.length) {
+                if ([line characterAtIndex:0] != '#') {
+                    // remove the CR character '\r'
+                    unichar lastChar = [line characterAtIndex:line.length - 1];
+                    if (lastChar == '\r') {
+                        line = [line substringToIndex:line.length - 1];
+                    }
+                    
+                    [params setValue:line forKey:M3U8_EXTINF_URI];
+                    break;
                 }
-                
-                [params setValue:line forKey:M3U8_EXTINF_URI];
-                break;
             }
         }
         
