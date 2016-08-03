@@ -116,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				9D05821F18E52DF500A12776 /* M3U8Kit */,
-				D98DB0111D38D5E500915B1D /* M3U8KitMac */,
 				9D05821C18E52DF500A12776 /* Frameworks */,
 				9D05821B18E52DF500A12776 /* Products */,
 			);
@@ -203,13 +202,6 @@
 				9D05825218E52E9500A12776 /* M3U8MasterPlaylist.m */,
 			);
 			name = "Master Playlist";
-			sourceTree = "<group>";
-		};
-		D98DB0111D38D5E500915B1D /* M3U8KitMac */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = M3U8KitMac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -612,6 +604,7 @@
 				D98DB0161D38D5E500915B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
