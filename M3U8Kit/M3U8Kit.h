@@ -26,4 +26,6 @@
 
 #import "NSString+m3u8.h"
 
+#import "M3U8TagsAndAttributes.h"
+
 #endif
