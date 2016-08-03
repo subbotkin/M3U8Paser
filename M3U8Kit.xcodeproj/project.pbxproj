@@ -56,7 +56,7 @@
 		D98DB02F1D38D8AE00915B1D /* NSString+m3u8.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D05825C18E52E9500A12776 /* NSString+m3u8.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D98DB0301D38D8C500915B1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D05822218E52DF500A12776 /* InfoPlist.strings */; };
 		D98DB0491D38DC6000915B1D /* M3U8KitMac.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DB0481D38DC6000915B1D /* M3U8KitMac.h */; };
-		D98DB04A1D38DCC500915B1D /* M3U8KitMac.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DB0481D38DC6000915B1D /* M3U8KitMac.h */; };
+		D98DB04A1D38DCC500915B1D /* M3U8KitMac.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DB0481D38DC6000915B1D /* M3U8KitMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -242,8 +242,8 @@
 				D98DB02C1D38D8AE00915B1D /* M3U8SegmentInfo.h in Headers */,
 				D98DB02D1D38D8AE00915B1D /* M3U8SegmentInfoList.h in Headers */,
 				D98DB02E1D38D8AE00915B1D /* M3U8MediaPlaylist.h in Headers */,
-				D98DB02F1D38D8AE00915B1D /* NSString+m3u8.h in Headers */,
 				D98DB04A1D38DCC500915B1D /* M3U8KitMac.h in Headers */,
+				D98DB02F1D38D8AE00915B1D /* NSString+m3u8.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
