@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "M3U8Kit.h"
 
 //! Project version number for M3U8KitMac.
 FOUNDATION_EXPORT double M3U8KitMacVersionNumber;
